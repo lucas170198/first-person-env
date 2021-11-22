@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/abcg
+CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/abcg/build
+CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles /home/lucas170198/gitrepos/lucas170198/abcg/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles /home/lucas170198/gitrepos/lucas170198/first-person-env/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -156,30 +156,17 @@ fmt/fast:
 .PHONY : fmt/fast
 
 #=============================================================================
-# Target rules for targets named helloworld
+# Target rules for targets named firstpersonenv
 
 # Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld
-.PHONY : helloworld
+firstpersonenv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 firstpersonenv
+.PHONY : firstpersonenv
 
 # fast build rule for target.
-helloworld/fast:
-	$(MAKE) $(MAKESILENT) -f examples/helloworld/CMakeFiles/helloworld.dir/build.make examples/helloworld/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
-
-#=============================================================================
-# Target rules for targets named loadmodel
-
-# Build rule for target.
-loadmodel: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 loadmodel
-.PHONY : loadmodel
-
-# fast build rule for target.
-loadmodel/fast:
-	$(MAKE) $(MAKESILENT) -f examples/loadmodel/CMakeFiles/loadmodel.dir/build.make examples/loadmodel/CMakeFiles/loadmodel.dir/build
-.PHONY : loadmodel/fast
+firstpersonenv/fast:
+	$(MAKE) $(MAKESILENT) -f examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build.make examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build
+.PHONY : firstpersonenv/fast
 
 # Help Target
 help:
@@ -190,10 +177,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... abcg"
+	@echo "... firstpersonenv"
 	@echo "... fmt"
-	@echo "... helloworld"
 	@echo "... imgui"
-	@echo "... loadmodel"
 .PHONY : help
 
 

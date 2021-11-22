@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/abcg
+CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/abcg/build
+CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -200,49 +200,31 @@ abcg/external/imgui/clean: abcg/external/imgui/CMakeFiles/imgui.dir/clean
 # Directory level rules for directory examples
 
 # Recursive "all" directory target.
-examples/all: examples/helloworld/all
-examples/all: examples/loadmodel/all
+examples/all: examples/firstpersonenv/all
 .PHONY : examples/all
 
 # Recursive "preinstall" directory target.
-examples/preinstall: examples/helloworld/preinstall
-examples/preinstall: examples/loadmodel/preinstall
+examples/preinstall: examples/firstpersonenv/preinstall
 .PHONY : examples/preinstall
 
 # Recursive "clean" directory target.
-examples/clean: examples/helloworld/clean
-examples/clean: examples/loadmodel/clean
+examples/clean: examples/firstpersonenv/clean
 .PHONY : examples/clean
 
 #=============================================================================
-# Directory level rules for directory examples/helloworld
+# Directory level rules for directory examples/firstpersonenv
 
 # Recursive "all" directory target.
-examples/helloworld/all: examples/helloworld/CMakeFiles/helloworld.dir/all
-.PHONY : examples/helloworld/all
+examples/firstpersonenv/all: examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all
+.PHONY : examples/firstpersonenv/all
 
 # Recursive "preinstall" directory target.
-examples/helloworld/preinstall:
-.PHONY : examples/helloworld/preinstall
+examples/firstpersonenv/preinstall:
+.PHONY : examples/firstpersonenv/preinstall
 
 # Recursive "clean" directory target.
-examples/helloworld/clean: examples/helloworld/CMakeFiles/helloworld.dir/clean
-.PHONY : examples/helloworld/clean
-
-#=============================================================================
-# Directory level rules for directory examples/loadmodel
-
-# Recursive "all" directory target.
-examples/loadmodel/all: examples/loadmodel/CMakeFiles/loadmodel.dir/all
-.PHONY : examples/loadmodel/all
-
-# Recursive "preinstall" directory target.
-examples/loadmodel/preinstall:
-.PHONY : examples/loadmodel/preinstall
-
-# Recursive "clean" directory target.
-examples/loadmodel/clean: examples/loadmodel/CMakeFiles/loadmodel.dir/clean
-.PHONY : examples/loadmodel/clean
+examples/firstpersonenv/clean: examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/clean
+.PHONY : examples/firstpersonenv/clean
 
 #=============================================================================
 # Target rules for target abcg/CMakeFiles/abcg.dir
@@ -252,14 +234,14 @@ abcg/CMakeFiles/abcg.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
 abcg/CMakeFiles/abcg.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) $(MAKESILENT) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/depend
 	$(MAKE) $(MAKESILENT) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target abcg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target abcg"
 .PHONY : abcg/CMakeFiles/abcg.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/CMakeFiles/abcg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abcg/CMakeFiles/abcg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 0
 .PHONY : abcg/CMakeFiles/abcg.dir/rule
 
 # Convenience name for target.
@@ -278,14 +260,14 @@ abcg/CMakeFiles/abcg.dir/clean:
 abcg/external/imgui/CMakeFiles/imgui.dir/all:
 	$(MAKE) $(MAKESILENT) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24 "Built target imgui"
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/external/imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abcg/external/imgui/CMakeFiles/imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 0
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -304,14 +286,14 @@ abcg/external/imgui/CMakeFiles/imgui.dir/clean:
 abcg/external/fmt/CMakeFiles/fmt.dir/all:
 	$(MAKE) $(MAKESILENT) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/depend
 	$(MAKE) $(MAKESILENT) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=10,11 "Built target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=15,16 "Built target fmt"
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/external/fmt/CMakeFiles/fmt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abcg/external/fmt/CMakeFiles/fmt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 0
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/rule
 
 # Convenience name for target.
@@ -324,60 +306,32 @@ abcg/external/fmt/CMakeFiles/fmt.dir/clean:
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/clean
 
 #=============================================================================
-# Target rules for target examples/helloworld/CMakeFiles/helloworld.dir
+# Target rules for target examples/firstpersonenv/CMakeFiles/firstpersonenv.dir
 
 # All Build rule for target.
-examples/helloworld/CMakeFiles/helloworld.dir/all: abcg/CMakeFiles/abcg.dir/all
-examples/helloworld/CMakeFiles/helloworld.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
-examples/helloworld/CMakeFiles/helloworld.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/helloworld/CMakeFiles/helloworld.dir/build.make examples/helloworld/CMakeFiles/helloworld.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/helloworld/CMakeFiles/helloworld.dir/build.make examples/helloworld/CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=12,13,14 "Built target helloworld"
-.PHONY : examples/helloworld/CMakeFiles/helloworld.dir/all
+examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all: abcg/CMakeFiles/abcg.dir/all
+examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
+examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
+	$(MAKE) $(MAKESILENT) -f examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build.make examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build.make examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=10,11,12,13,14 "Built target firstpersonenv"
+.PHONY : examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all
 
 # Build rule for subdir invocation for target.
-examples/helloworld/CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/helloworld/CMakeFiles/helloworld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
-.PHONY : examples/helloworld/CMakeFiles/helloworld.dir/rule
+examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles 0
+.PHONY : examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/rule
 
 # Convenience name for target.
-helloworld: examples/helloworld/CMakeFiles/helloworld.dir/rule
-.PHONY : helloworld
+firstpersonenv: examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/rule
+.PHONY : firstpersonenv
 
 # clean rule for target.
-examples/helloworld/CMakeFiles/helloworld.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/helloworld/CMakeFiles/helloworld.dir/build.make examples/helloworld/CMakeFiles/helloworld.dir/clean
-.PHONY : examples/helloworld/CMakeFiles/helloworld.dir/clean
-
-#=============================================================================
-# Target rules for target examples/loadmodel/CMakeFiles/loadmodel.dir
-
-# All Build rule for target.
-examples/loadmodel/CMakeFiles/loadmodel.dir/all: abcg/CMakeFiles/abcg.dir/all
-examples/loadmodel/CMakeFiles/loadmodel.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
-examples/loadmodel/CMakeFiles/loadmodel.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/loadmodel/CMakeFiles/loadmodel.dir/build.make examples/loadmodel/CMakeFiles/loadmodel.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/loadmodel/CMakeFiles/loadmodel.dir/build.make examples/loadmodel/CMakeFiles/loadmodel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=23,24,25 "Built target loadmodel"
-.PHONY : examples/loadmodel/CMakeFiles/loadmodel.dir/all
-
-# Build rule for subdir invocation for target.
-examples/loadmodel/CMakeFiles/loadmodel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/loadmodel/CMakeFiles/loadmodel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles 0
-.PHONY : examples/loadmodel/CMakeFiles/loadmodel.dir/rule
-
-# Convenience name for target.
-loadmodel: examples/loadmodel/CMakeFiles/loadmodel.dir/rule
-.PHONY : loadmodel
-
-# clean rule for target.
-examples/loadmodel/CMakeFiles/loadmodel.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/loadmodel/CMakeFiles/loadmodel.dir/build.make examples/loadmodel/CMakeFiles/loadmodel.dir/clean
-.PHONY : examples/loadmodel/CMakeFiles/loadmodel.dir/clean
+examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/build.make examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/clean
+.PHONY : examples/firstpersonenv/CMakeFiles/firstpersonenv.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

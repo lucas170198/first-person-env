@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/abcg
+CMAKE_SOURCE_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/abcg/build
+CMAKE_BINARY_DIR = /home/lucas170198/gitrepos/lucas170198/first-person-env/build
 
 # Include any dependencies generated for this target.
 include abcg/CMakeFiles/abcg.dir/depend.make
@@ -70,124 +70,116 @@ include abcg/CMakeFiles/abcg.dir/progress.make
 include abcg/CMakeFiles/abcg.dir/flags.make
 
 abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o: ../abcg/abcg_application.cpp
 abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o -MF CMakeFiles/abcg.dir/abcg_application.cpp.o.d -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o -MF CMakeFiles/abcg.dir/abcg_application.cpp.o.d -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_application.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_application.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_application.cpp > CMakeFiles/abcg.dir/abcg_application.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_application.cpp > CMakeFiles/abcg.dir/abcg_application.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_application.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_application.cpp -o CMakeFiles/abcg.dir/abcg_application.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_application.cpp -o CMakeFiles/abcg.dir/abcg_application.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o: ../abcg/abcg_elapsedtimer.cpp
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -MF CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o.d -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_elapsedtimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -MF CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o.d -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_elapsedtimer.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_elapsedtimer.cpp > CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_elapsedtimer.cpp > CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_elapsedtimer.cpp -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_elapsedtimer.cpp -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o: ../abcg/abcg_exception.cpp
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o -MF CMakeFiles/abcg.dir/abcg_exception.cpp.o.d -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o -MF CMakeFiles/abcg.dir/abcg_exception.cpp.o.d -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_exception.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_exception.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_exception.cpp > CMakeFiles/abcg.dir/abcg_exception.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_exception.cpp > CMakeFiles/abcg.dir/abcg_exception.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_exception.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_exception.cpp -o CMakeFiles/abcg.dir/abcg_exception.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_exception.cpp -o CMakeFiles/abcg.dir/abcg_exception.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o: ../abcg/abcg_image.cpp
 abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o -MF CMakeFiles/abcg.dir/abcg_image.cpp.o.d -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o -MF CMakeFiles/abcg.dir/abcg_image.cpp.o.d -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_image.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_image.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_image.cpp > CMakeFiles/abcg.dir/abcg_image.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_image.cpp > CMakeFiles/abcg.dir/abcg_image.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_image.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_image.cpp -o CMakeFiles/abcg.dir/abcg_image.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_image.cpp -o CMakeFiles/abcg.dir/abcg_image.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o: ../abcg/abcg_openglfunctions.cpp
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -MF CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o.d -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglfunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -MF CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o.d -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglfunctions.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglfunctions.cpp > CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglfunctions.cpp > CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglfunctions.cpp -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglfunctions.cpp -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o: ../abcg/abcg_openglwindow.cpp
 abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -MF CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o.d -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -MF CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o.d -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglwindow.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglwindow.cpp > CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglwindow.cpp > CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglwindow.cpp -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglwindow.cpp -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o: ../abcg/abcg_string.cpp
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o -MF CMakeFiles/abcg.dir/abcg_string.cpp.o.d -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o -MF CMakeFiles/abcg.dir/abcg_string.cpp.o.d -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_string.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_string.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_string.cpp > CMakeFiles/abcg.dir/abcg_string.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_string.cpp > CMakeFiles/abcg.dir/abcg_string.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_string.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_string.cpp -o CMakeFiles/abcg.dir/abcg_string.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_string.cpp -o CMakeFiles/abcg.dir/abcg_string.cpp.s
 
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o: abcg/CMakeFiles/abcg.dir/flags.make
-abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o: abcg/CMakeFiles/abcg.dir/includes_CXX.rsp
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o: ../abcg/abcg_trackball.cpp
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o: abcg/CMakeFiles/abcg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o -MF CMakeFiles/abcg.dir/abcg_trackball.cpp.o.d -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_trackball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o -MF CMakeFiles/abcg.dir/abcg_trackball.cpp.o.d -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_trackball.cpp
 
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abcg.dir/abcg_trackball.cpp.i"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_trackball.cpp > CMakeFiles/abcg.dir/abcg_trackball.cpp.i
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_trackball.cpp > CMakeFiles/abcg.dir/abcg_trackball.cpp.i
 
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abcg.dir/abcg_trackball.cpp.s"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && /home/lucas170198/development/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_trackball.cpp -o CMakeFiles/abcg.dir/abcg_trackball.cpp.s
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_trackball.cpp -o CMakeFiles/abcg.dir/abcg_trackball.cpp.s
 
 # Object files for target abcg
 abcg_OBJECTS = \
@@ -213,19 +205,19 @@ abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/build.make
 abcg/libabcg.a: abcg/CMakeFiles/abcg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libabcg.a"
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean_target.cmake
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abcg.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libabcg.a"
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean_target.cmake
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abcg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 abcg/CMakeFiles/abcg.dir/build: abcg/libabcg.a
 .PHONY : abcg/CMakeFiles/abcg.dir/build
 
 abcg/CMakeFiles/abcg.dir/clean:
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean.cmake
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg && $(CMAKE_COMMAND) -P CMakeFiles/abcg.dir/cmake_clean.cmake
 .PHONY : abcg/CMakeFiles/abcg.dir/clean
 
 abcg/CMakeFiles/abcg.dir/depend:
-	cd /home/lucas170198/gitrepos/lucas170198/abcg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucas170198/gitrepos/lucas170198/abcg /home/lucas170198/gitrepos/lucas170198/abcg/abcg /home/lucas170198/gitrepos/lucas170198/abcg/build /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg /home/lucas170198/gitrepos/lucas170198/abcg/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucas170198/gitrepos/lucas170198/first-person-env/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucas170198/gitrepos/lucas170198/first-person-env /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg /home/lucas170198/gitrepos/lucas170198/first-person-env/build /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg /home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : abcg/CMakeFiles/abcg.dir/depend
 

@@ -1,112 +1,102 @@
 [
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_application.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_application.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_application.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_application.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_elapsedtimer.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_elapsedtimer.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_elapsedtimer.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_elapsedtimer.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_exception.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_exception.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_exception.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_exception.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_image.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_image.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_image.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_image.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglfunctions.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglfunctions.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglfunctions.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglfunctions.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglwindow.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_openglwindow.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglwindow.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_openglwindow.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_string.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_string.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_string.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_string.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_trackball.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/abcg_trackball.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_trackball.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/abcg_trackball.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_demo.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_demo.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_demo.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_demo.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_draw.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_draw.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_draw.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_draw.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_tables.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_tables.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_tables.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_tables.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_widgets.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_widgets.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_widgets.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_widgets.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_impl_sdl.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_impl_sdl.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_sdl.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_sdl.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -g -flto -fno-fat-lto-objects -o abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_impl_opengl3.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui/imgui_impl_opengl3.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/imgui",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -g -flto -fno-fat-lto-objects -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -g -flto -fno-fat-lto-objects -std=gnu++2a -o abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o -c /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt/format.cc",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt/format.cc"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/fmt",
+  "command": "/usr/bin/c++  -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -g -flto -fno-fat-lto-objects -std=gnu++2a -o CMakeFiles/fmt.dir/format.cc.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.cc",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.cc"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/helloworld/CMakeFiles/helloworld.dir/main.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/helloworld/main.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/helloworld/main.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/examples/firstpersonenv",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/firstpersonenv.dir/camera.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/camera.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/camera.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/helloworld/CMakeFiles/helloworld.dir/openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/helloworld/openglwindow.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/helloworld/openglwindow.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/examples/firstpersonenv",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/firstpersonenv.dir/ground.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/ground.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/ground.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/lookat/CMakeFiles/lookat.dir/camera.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/camera.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/camera.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/examples/firstpersonenv",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/firstpersonenv.dir/main.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/main.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/main.cpp"
 },
 {
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/lookat/CMakeFiles/lookat.dir/ground.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/ground.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/ground.cpp"
-},
-{
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/lookat/CMakeFiles/lookat.dir/main.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/main.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/main.cpp"
-},
-{
-  "directory": "/home/lucas170198/gitrepos/lucas170198/abcg/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-10 -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o examples/lookat/CMakeFiles/lookat.dir/openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/openglwindow.cpp",
-  "file": "/home/lucas170198/gitrepos/lucas170198/abcg/examples/lookat/openglwindow.cpp"
+  "directory": "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/examples/firstpersonenv",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/cppitertools -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/glm/.. -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui -isystem /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/firstpersonenv.dir/openglwindow.cpp.o -c /home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/openglwindow.cpp",
+  "file": "/home/lucas170198/gitrepos/lucas170198/first-person-env/examples/firstpersonenv/openglwindow.cpp"
 }
 ]

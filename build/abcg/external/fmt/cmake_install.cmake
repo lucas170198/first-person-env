@@ -1,4 +1,4 @@
-# Install script for directory: /home/lucas170198/gitrepos/lucas170198/abcg/abcg/external/fmt
+# Install script for directory: /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/x86_64-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 

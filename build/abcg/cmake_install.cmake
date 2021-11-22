@@ -1,4 +1,4 @@
-# Install script for directory: /home/lucas170198/gitrepos/lucas170198/abcg/abcg
+# Install script for directory: /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/x86_64-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lucas170198/gitrepos/lucas170198/abcg/build/abcg/external/cmake_install.cmake")
+  include("/home/lucas170198/gitrepos/lucas170198/first-person-env/build/abcg/external/cmake_install.cmake")
 
 endif()
 
