@@ -1,0 +1,2 @@
+"/home/lucas170198/development/emsdk/upstream/emscripten/emar" cr libfmt.a CMakeFiles/fmt.dir/format.cc.o
+"/home/lucas170198/development/emsdk/upstream/emscripten/emranlib" libfmt.a

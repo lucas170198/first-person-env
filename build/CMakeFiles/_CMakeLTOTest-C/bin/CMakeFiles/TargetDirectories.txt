@@ -1,0 +1,4 @@
+/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir
+/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/lucas170198/gitrepos/lucas170198/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir

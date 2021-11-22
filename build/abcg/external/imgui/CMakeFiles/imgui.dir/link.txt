@@ -1,0 +1,2 @@
+"/home/lucas170198/development/emsdk/upstream/emscripten/emar" cr libimgui.a CMakeFiles/imgui.dir/imgui.cpp.o CMakeFiles/imgui.dir/imgui_demo.cpp.o CMakeFiles/imgui.dir/imgui_draw.cpp.o CMakeFiles/imgui.dir/imgui_tables.cpp.o CMakeFiles/imgui.dir/imgui_widgets.cpp.o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o
+"/home/lucas170198/development/emsdk/upstream/emscripten/emranlib" libimgui.a
