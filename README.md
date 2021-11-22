@@ -4,6 +4,8 @@
 
 **RA** : 11201720968
 
+**Live Demo**: https://lucas170198.github.io/first-person-env/firstpersonenv/
+
 ## First Person Env
 ### Descrição da Aplicação
 Desenvolvimento de engine para game em primeira pessoa. Foi utilizada a técnica de câmera lookat como sendo o "personagem" controlado pelo player. Foram implementados os comandos de: PULAR, ANDAR, CORRER e VIRAR A CÂMERA. O player está limitado a área que possui um piso.
