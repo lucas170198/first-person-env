@@ -1,63 +1,34 @@
 abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o: \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.cpp \
- /usr/include/stdc-predef.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/float.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/assert.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.h \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/libio.h \
- /usr/include/x86_64-linux-gnu/bits/_G_config.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3_loader.h \
- /usr/include/c++/10/stdlib.h /usr/include/c++/10/cstdlib \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/10/bits/std_abs.h /usr/include/dlfcn.h \
- /usr/include/x86_64-linux-gnu/bits/dlfcn.h
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.cpp \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui.h \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imconfig.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/float.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/float.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stddef.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui/imgui_impl_opengl3.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/GLES2/gl2.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/GLES2/gl2platform.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/KHR/khrplatform.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/GLES2/gl2ext.h

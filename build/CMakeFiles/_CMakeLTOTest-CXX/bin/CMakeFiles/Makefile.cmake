@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/lucas170198/development/emsdk/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/lucas170198/development/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
   "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles/3.21.2/CMakeCXXCompiler.cmake"
   "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles/3.21.2/CMakeSystem.cmake"
   "/home/lucas170198/gitrepos/lucas170198/first-person-env/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
@@ -15,15 +17,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
   "/usr/local/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
   "/usr/local/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
-  "/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/usr/local/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/local/share/cmake-3.21/Modules/Compiler/Clang-CXX.cmake"
+  "/usr/local/share/cmake-3.21/Modules/Compiler/Clang.cmake"
   "/usr/local/share/cmake-3.21/Modules/Compiler/GNU.cmake"
-  "/usr/local/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/local/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake"
-  "/usr/local/share/cmake-3.21/Modules/Platform/Linux.cmake"
-  "/usr/local/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:

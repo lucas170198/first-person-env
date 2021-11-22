@@ -1,220 +1,113 @@
 abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o: \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.cc \
- /usr/include/stdc-predef.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format-inl.h \
- /usr/include/c++/10/algorithm /usr/include/c++/10/utility \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
- /usr/include/c++/10/pstl/pstl_config.h \
- /usr/include/c++/10/bits/stl_relops.h \
- /usr/include/c++/10/bits/stl_pair.h /usr/include/c++/10/bits/move.h \
- /usr/include/c++/10/type_traits /usr/include/c++/10/compare \
- /usr/include/c++/10/concepts /usr/include/c++/10/initializer_list \
- /usr/include/c++/10/ext/numeric_traits.h \
- /usr/include/c++/10/bits/cpp_type_traits.h \
- /usr/include/c++/10/ext/type_traits.h \
- /usr/include/c++/10/bits/stl_algobase.h \
- /usr/include/c++/10/bits/functexcept.h \
- /usr/include/c++/10/bits/exception_defines.h \
- /usr/include/c++/10/bits/stl_iterator_base_types.h \
- /usr/include/c++/10/bits/iterator_concepts.h \
- /usr/include/c++/10/bits/ptr_traits.h \
- /usr/include/c++/10/bits/range_cmp.h \
- /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/10/bits/concept_check.h \
- /usr/include/c++/10/debug/assertions.h \
- /usr/include/c++/10/bits/stl_iterator.h /usr/include/c++/10/new \
- /usr/include/c++/10/exception /usr/include/c++/10/bits/exception.h \
- /usr/include/c++/10/bits/exception_ptr.h \
- /usr/include/c++/10/bits/cxxabi_init_exception.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
- /usr/include/c++/10/typeinfo /usr/include/c++/10/bits/hash_bytes.h \
- /usr/include/c++/10/bits/nested_exception.h \
- /usr/include/c++/10/debug/debug.h \
- /usr/include/c++/10/bits/predefined_ops.h \
- /usr/include/c++/10/bits/stl_algo.h /usr/include/c++/10/cstdlib \
- /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/10/bits/std_abs.h \
- /usr/include/c++/10/bits/algorithmfwd.h \
- /usr/include/c++/10/bits/stl_heap.h \
- /usr/include/c++/10/bits/stl_tempbuf.h \
- /usr/include/c++/10/bits/stl_construct.h \
- /usr/include/c++/10/bits/uniform_int_dist.h /usr/include/c++/10/limits \
- /usr/include/c++/10/bits/ranges_algo.h \
- /usr/include/c++/10/bits/ranges_algobase.h /usr/include/c++/10/iterator \
- /usr/include/c++/10/iosfwd /usr/include/c++/10/bits/stringfwd.h \
- /usr/include/c++/10/bits/memoryfwd.h /usr/include/c++/10/bits/postypes.h \
- /usr/include/c++/10/cwchar /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/10/bits/stream_iterator.h \
- /usr/include/c++/10/bits/streambuf_iterator.h \
- /usr/include/c++/10/streambuf /usr/include/c++/10/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
- /usr/include/c++/10/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/10/cctype \
- /usr/include/ctype.h /usr/include/c++/10/bits/ios_base.h \
- /usr/include/c++/10/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
- /usr/include/c++/10/bits/locale_classes.h /usr/include/c++/10/string \
- /usr/include/c++/10/bits/char_traits.h /usr/include/c++/10/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/10/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
- /usr/include/c++/10/ext/new_allocator.h \
- /usr/include/c++/10/bits/ostream_insert.h \
- /usr/include/c++/10/bits/cxxabi_forced.h \
- /usr/include/c++/10/bits/stl_function.h \
- /usr/include/c++/10/backward/binders.h \
- /usr/include/c++/10/bits/range_access.h \
- /usr/include/c++/10/bits/basic_string.h \
- /usr/include/c++/10/ext/alloc_traits.h \
- /usr/include/c++/10/bits/alloc_traits.h /usr/include/c++/10/string_view \
- /usr/include/c++/10/bits/functional_hash.h \
- /usr/include/c++/10/bits/string_view.tcc \
- /usr/include/c++/10/ext/string_conversions.h /usr/include/c++/10/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h \
- /usr/include/x86_64-linux-gnu/bits/_G_config.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/c++/10/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/c++/10/bits/charconv.h \
- /usr/include/c++/10/bits/basic_string.tcc \
- /usr/include/c++/10/bits/locale_classes.tcc \
- /usr/include/c++/10/system_error \
- /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
- /usr/include/c++/10/stdexcept /usr/include/c++/10/bits/streambuf.tcc \
- /usr/include/c++/10/ranges /usr/include/c++/10/bits/refwrap.h \
- /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/optional \
- /usr/include/c++/10/bits/enable_special_members.h \
- /usr/include/c++/10/tuple /usr/include/c++/10/array \
- /usr/include/c++/10/bits/uses_allocator.h \
- /usr/include/c++/10/pstl/glue_algorithm_defs.h \
- /usr/include/c++/10/functional /usr/include/c++/10/bits/std_function.h \
- /usr/include/c++/10/unordered_map \
- /usr/include/c++/10/ext/aligned_buffer.h \
- /usr/include/c++/10/bits/hashtable.h \
- /usr/include/c++/10/bits/hashtable_policy.h \
- /usr/include/c++/10/bits/node_handle.h \
- /usr/include/c++/10/bits/unordered_map.h \
- /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/vector \
- /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
- /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/climits \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/10/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/10/bits/specfun.h /usr/include/c++/10/tr1/gamma.tcc \
- /usr/include/c++/10/tr1/special_function_util.h \
- /usr/include/c++/10/tr1/bessel_function.tcc \
- /usr/include/c++/10/tr1/beta_function.tcc \
- /usr/include/c++/10/tr1/ell_integral.tcc \
- /usr/include/c++/10/tr1/exp_integral.tcc \
- /usr/include/c++/10/tr1/hypergeometric.tcc \
- /usr/include/c++/10/tr1/legendre_function.tcc \
- /usr/include/c++/10/tr1/modified_bessel_func.tcc \
- /usr/include/c++/10/tr1/poly_hermite.tcc \
- /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/cstdarg \
- /usr/include/c++/10/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/10/locale /usr/include/c++/10/bits/locale_facets.h \
- /usr/include/c++/10/cwctype /usr/include/wctype.h \
- /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
- /usr/include/c++/10/bits/locale_facets.tcc \
- /usr/include/c++/10/bits/locale_facets_nonio.h /usr/include/c++/10/ctime \
- /usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/10/bits/codecvt.h \
- /usr/include/c++/10/bits/locale_facets_nonio.tcc \
- /usr/include/c++/10/bits/locale_conv.h \
- /usr/include/c++/10/bits/unique_ptr.h /usr/include/c++/10/ostream \
- /usr/include/c++/10/ios /usr/include/c++/10/bits/basic_ios.h \
- /usr/include/c++/10/bits/basic_ios.tcc \
- /usr/include/c++/10/bits/ostream.tcc \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.h \
- /usr/include/c++/10/memory \
- /usr/include/c++/10/bits/stl_raw_storage_iter.h \
- /usr/include/c++/10/bits/ranges_uninitialized.h \
- /usr/include/c++/10/ext/concurrence.h \
- /usr/include/c++/10/bits/shared_ptr.h \
- /usr/include/c++/10/bits/shared_ptr_base.h \
- /usr/include/c++/10/bits/allocated_ptr.h \
- /usr/include/c++/10/bits/shared_ptr_atomic.h \
- /usr/include/c++/10/bits/atomic_base.h \
- /usr/include/c++/10/bits/atomic_lockfree_defines.h \
- /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/bit \
- /usr/include/c++/10/pstl/glue_memory_defs.h \
- /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/core.h
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.cc \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format-inl.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/version \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stddef.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/__stddef_max_align_t.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/type_traits \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/utility \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__debug \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/wchar.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/typeinfo \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/exception \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/base.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdlib \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/new \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/iterator \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__functional_base \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/tuple \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_traits.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/utilities.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/atomic \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__threading_support \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/chrono \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctime \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/time.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ratio \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/limits.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/limits.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/errno.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/sched.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/semaphore.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/fcntl.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/bits/fcntl.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/functional \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/lucas170198/development/emsdk/upstream/lib/clang/14.0.0/include/stdarg.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/wctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/wctype.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__locale \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/mutex \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex_base \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/system_error \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__errc \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/locale.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/compat/xlocale.h \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/ios \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/streambuf \
+  /home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__bsd_locale_fallbacks.h \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/format.h \
+  /home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/fmt/core.h

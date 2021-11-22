@@ -1,0 +1,1 @@
+-I/home/lucas170198/development/emsdk/upstream/emscripten/cache/sysroot/include/SDL2 -I/usr/local/include -I/opt/local/include -I/home/lucas170198/gitrepos/lucas170198/first-person-env/abcg/external/imgui

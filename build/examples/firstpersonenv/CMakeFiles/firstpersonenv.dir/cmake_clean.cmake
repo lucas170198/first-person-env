@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../bin/firstpersonenv"
-  "../../bin/firstpersonenv.pdb"
+  "../../../public/firstpersonenv.js"
+  "../../../public/firstpersonenv.pdb"
   "CMakeFiles/firstpersonenv.dir/camera.cpp.o"
   "CMakeFiles/firstpersonenv.dir/camera.cpp.o.d"
   "CMakeFiles/firstpersonenv.dir/ground.cpp.o"
