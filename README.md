@@ -28,3 +28,4 @@ RUN -> CRTL + move
 ## Missing aspects
 - Implementar sistema de combate em primeira pessoa.
 - Implementar IA para NPC's
+- Tentei implementar um sistema de colisão, porém no momento não está funcionando. A ideia era projetar cada objeto no plano do mundo, e comparar com a projeção da camêra para verificar a colisão da camera com o objeto. A implementação está na função `OpenGLWindow::checkForColisions`.

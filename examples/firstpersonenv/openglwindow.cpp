@@ -248,8 +248,12 @@ void OpenGLWindow::terminateGL() {
 bool OpenGLWindow::checkForColisions(glm::vec3 nextPosAfterMov){
 
   for(auto &obj : m_objects){
-    fmt::print("{}  {}  {}  {}  {}\n", obj.position.x, nextPosAfterMov.x, obj.position.z, nextPosAfterMov.z, m_camera.m_at.x);
-    if(obj.position.x == nextPosAfterMov.x || obj.position.z == nextPosAfterMov.z)
+    glm::mat4 model{1.0f};
+    model = glm::translate(model, obj.position);
+    model = glm::scale(model, obj.scale);
+    glm::vec3 eyePos = model * glm::vec4(nextPosAfterMov, 1);
+    fmt::print("{} {}\n", eyePos.x, eyePos.z);
+    if((eyePos.x >= -0.3f && eyePos.x <= 0.3f) || (eyePos.z >= -0.3f || eyePos.z <= 0.3f))
       return false;
   }
 
